@@ -1,0 +1,165 @@
+.heading{
+    color:rgb(56, 3, 3);
+    padding:1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+section{
+    min-height: 100vh;
+    padding:1rem 7%;
+    padding-top:6rem;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1000;
+    padding:1.5rem 7%;
+    background:var(--gradient);
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+
+h1{
+    color: rgb(7, 111, 248);
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+}
+
+.BAR{
+    width: 100%;
+}
+
+.C-TACT{
+    width: 50px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.ecard{
+    background-color: rgb(2, 27, 51);
+    color: white;
+    padding: 1rem;
+    height: 600px; 
+    width: 100%;
+}
+
+.dcard{
+    background-color: rgb(4, 60, 116);
+    color: white;
+    padding: 1rem;
+    height: 500px;  
+}
+
+.card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 400px;
+  }
+
+.bcard {
+    background-color: rgb(4, 60, 116);
+    color: white;
+    padding: 1rem;
+    height: 600px;
+}
+
+
+
+.C-INTACT{
+    margin: 20px;
+    font-size: 40px;
+    display: block;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif; 
+    color: rgb(8, 195, 219);
+    padding-left: 20px;
+}
+
+.INFO{
+      color: rgb(8, 195, 219);
+      margin-left: 60px;
+      font-size: 30px;
+      letter-spacing: 2px;
+      line-height: 40px;
+      font-size: 20px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  !important;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    border:none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+*::selection{
+    background:#f39c12;
+    color:rgb(100, 12, 12);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+header .navbar ul li{
+    margin:0 1rem;
+}
+
+header .navbar ul li a{
+    font-size: 2rem;
+    color:rgb(8, 195, 219);
+}
+
+
+header .navbar ul li a:hover{
+    color:rgb(7, 111, 248);
+}
+
+header #login{
+    font-size: 3rem;
+    color:rgb(26, 0, 0);
+    cursor: pointer;
+}
+
+
+
+header #menu{
+    font-size: 3rem;
+    color:rgb(136, 25, 25);
+    cursor: pointer;
+    display: none;
+}
+
+.TORENT{
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.Home-Card{
+    background-color: rgb(6, 80, 149);
+    color: white;
+    height: 700px; 
+}
+
